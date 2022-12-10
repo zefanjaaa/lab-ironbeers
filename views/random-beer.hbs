@@ -1,4 +1,5 @@
 {{#each beersFromApi}}
+
 <div id="beer">
     <img src="{{this.image_url}}" alt="beerimage">
 
@@ -10,9 +11,12 @@
 
     <h4>Tagline:</h4>
     <p>{{this.tagline}}</p>
+
+    <h4>Food Pairing:</h4>
+    <p>{{this.food_pairing}}</p>
+
+    <h4>Brewers Tips:</h4>
+    <p>{{this.brewers_tips}}</p>
 </div>
 
 {{/each}}
-
-<li><strong></strong></li>
-<p><i></i></p>
